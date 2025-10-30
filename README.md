@@ -10,8 +10,8 @@ The MCP server executes tool calls to the Notion API and Google Docs API, transf
 
 ## Architecture
 
-- **agents-starter/** – Cloudflare MCP agent that receives Slack messages, streams model responses, and issues tool calls through MCP.  
-- **my-mcp-starter/** – Durable Object–based MCP server that connects to external services (Notion, Google Docs) and handles AI normalization tasks.
+- **notion-labs-agent/** – Cloudflare MCP agent that receives Slack messages, streams model responses, and issues tool calls through MCP.  
+- **notion-labs-mcp/** – Durable Object–based MCP server that connects to external services (Notion, Google Docs) and handles AI normalization tasks.
 
 ## Features
 
